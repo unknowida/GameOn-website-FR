@@ -22,6 +22,10 @@ function launchModal() {
   modalbg.style.display = "block";
 }
 
+// #1 TODO : close modal
+
+
+
 // Close modal event
 modalClose.forEach((close) => close.addEventListener("click", closeModal));
 
@@ -29,3 +33,9 @@ modalClose.forEach((close) => close.addEventListener("click", closeModal));
 function closeModal() {
   modalbg.style.display = "none";
 }
+
+
+// #2 Implement form entries
+
+const form = document.getElementById('form');
+const firstName = document.getElementById ('first');
