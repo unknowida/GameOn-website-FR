@@ -7,6 +7,7 @@ function editNav() {
   }
 }
 // #2 Implement form entries
+//Firstname
 function validate() {
   console.log('Validate')
 
@@ -18,8 +19,16 @@ function validate() {
   if (firstName.length < 2) {
     formValid = false
   }
+
+  const inputLastName = document.querySelector('#last')
+  const lastName = inputLastName.value
+
+  if (lastName.length < 2) {
+    formValid = false
+  }
   return formValid
 }
+//Lastname
 
 
 
