@@ -49,7 +49,6 @@
           <img src="./bg_img.jpg" alt="img" />
         </div>
         <button class="btn-signup modal-btn">je m'inscris</button>
-        
       </div>
 
       <div class="bground">
@@ -61,6 +60,8 @@
               action="index.html"
               method="get"
               onsubmit="return validate();"
+              //Enlever la validation par le browser
+              novalidate
             >
               <div class="formData">
                 <label for="first">Prénom</label>
