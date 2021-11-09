@@ -37,11 +37,14 @@ function validate() {
   if (regex.test(email) == false) {
     formValid = false
   }
-
+  // debugger;
   const inputQuantityNumber = document.querySelector('#quantity')
-  const quantityNumber = /[0-99]+$/
+  const quantityNumber = inputQuantityNumber.value
 
-  if (inputQuantityNumber.value.match(quantityNumber)) {
+//regex 
+  const regexNumber = /[^0 - 99]/
+
+  if (inputQuantityNumber.value.match(regexNumber)) {
     formValid = false
   }
 
