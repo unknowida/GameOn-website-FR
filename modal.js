@@ -37,6 +37,8 @@ function validate() {
   if (regex.test(email) == false) {
     formValid = false
   }
+
+  // (4) Pour le nombre de concours, une valeur numérique est saisie.
   // debugger;
   const inputQuantityNumber = document.querySelector('#quantity')
   const quantityNumber = inputQuantityNumber.value
@@ -45,6 +47,15 @@ function validate() {
   const regexNumber = /[^0 - 99]/
 
   if (inputQuantityNumber.value.match(regexNumber)) {
+    formValid = false
+  }
+
+  // (5) Un bouton radio est sélectionné.
+
+  const inputRadio = document.querySelector('#checkbox-label')
+  const radioCheck = inputRadio.value
+
+  if (inputCheck.value.match(regexNumber)) {
     formValid = false
   }
 
