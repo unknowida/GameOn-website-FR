@@ -1,4 +1,5 @@
 {
   "workbench.preferredLightColorTheme": "Default Dark+",
-  "cSpell.language": "en,fr,en-GB,fr-FR"
+  "cSpell.language": "en,fr,en-GB,fr-FR",
+  "workbench.colorTheme": "Default Dark+"
 }
