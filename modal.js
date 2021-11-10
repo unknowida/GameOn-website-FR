@@ -7,7 +7,7 @@ function editNav() {
   }
 }
 // #2 Implement form entries
-//Firstname --> Lastname --> Email --> Numbers tournamentsffffffff
+//Firstname --> Lastname --> Email --> Numbers tournaments
 function validate() {
   console.log("Validate");
 
